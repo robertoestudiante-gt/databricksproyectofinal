@@ -1,0 +1,53 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workspaces_wsdatabricks_name": {
+            "defaultValue": "wsdatabricks",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Databricks/workspaces",
+            "apiVersion": "2025-03-01-preview",
+            "name": "[parameters('workspaces_wsdatabricks_name')]",
+            "location": "eastus",
+            "sku": {
+                "name": "premium"
+            },
+            "properties": {
+                "defaultCatalog": {
+                    "initialType": "UnityCatalog"
+                },
+                "managedResourceGroupId": "/subscriptions/07d74485-7f20-4d3f-bcf3-47efd9254055/resourceGroups/mrgrpdatabricks",
+                "parameters": {
+                    "enableNoPublicIp": {
+                        "value": true
+                    },
+                    "prepareEncryption": {
+                        "value": false
+                    },
+                    "requireInfrastructureEncryption": {
+                        "value": false
+                    },
+                    "storageAccountName": {
+                        "value": "dbstoragemtazlbmaukqr6"
+                    },
+                    "storageAccountSkuName": {
+                        "value": "Standard_GRS"
+                    }
+                },
+                "authorizations": [
+                    {
+                        "principalId": "9a74af6f-d153-4348-988a-e2672920bee9",
+                        "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+                    }
+                ],
+                "createdBy": {},
+                "updatedBy": {}
+            }
+        }
+    ]
+}

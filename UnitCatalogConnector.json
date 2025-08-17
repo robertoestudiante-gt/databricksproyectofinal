@@ -1,0 +1,27 @@
+{
+    "id": "/subscriptions/07d74485-7f20-4d3f-bcf3-47efd9254055/resourceGroups/mrgrpdatabricks/providers/Microsoft.Databricks/accessConnectors/unity-catalog-access-connector",
+    "name": "unity-catalog-access-connector",
+    "type": "Microsoft.Databricks/accessConnectors",
+    "location": "eastus",
+    "identity": {
+        "principalId": "622d7d6f-bada-414a-ab44-4eff0cb719ba",
+        "tenantId": "c43442de-39bc-45ef-aa51-64330a02d4bf",
+        "type": "SystemAssigned"
+    },
+    "tags": {
+        "application": "databricks",
+        "databricks-environment": "true"
+    },
+    "properties": {
+        "provisioningState": "Succeeded"
+    },
+    "systemData": {
+        "createdBy": "d9327919-6775-4843-9037-3fb0fb0473cb",
+        "createdByType": "Application",
+        "createdAt": "2025-08-17T02:51:02.8016643+00:00",
+        "lastModifiedBy": "d9327919-6775-4843-9037-3fb0fb0473cb",
+        "lastModifiedByType": "Application",
+        "lastModifiedAt": "2025-08-17T02:51:02.8016643+00:00"
+    },
+    "apiVersion": "2023-05-01"
+}
