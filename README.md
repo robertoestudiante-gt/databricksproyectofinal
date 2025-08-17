@@ -35,6 +35,10 @@ El proyecto sigue el enfoque de la arquitectura Medallion:
 - Power BI (conexión directa vía token y Databricks SQL endpoint)
 - Panel de power bi publico https://app.powerbi.com/links/xMIb8e_wNg?ctid=9095890d-5421-4305-8de7-9346ffcf0a9d&pbi_source=linkShare
 - GitHub (para versionado y documentación)
+- Databricks Dashboards
+- Panel publico de databricks: https://adb-4339558086818032.12.azuredatabricks.net/dashboardsv3/01f07b4178d615cea10839c4d5c6a6a4/published?o=4339558086818032
+<img width="1382" height="49" alt="image" src="https://github.com/user-attachments/assets/b9d0aa9d-e9b5-49c4-8e6a-14028660507c" />
+
 
 ## Notebooks
 
