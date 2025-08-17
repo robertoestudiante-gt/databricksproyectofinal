@@ -33,6 +33,7 @@ El proyecto sigue el enfoque de la arquitectura Medallion:
 - Azure Databricks (Unity Catalog habilitado)
 - PySpark
 - Power BI (conexión directa vía token y Databricks SQL endpoint)
+- Panel de power bi publico https://app.powerbi.com/links/xMIb8e_wNg?ctid=9095890d-5421-4305-8de7-9346ffcf0a9d&pbi_source=linkShare
 - GitHub (para versionado y documentación)
 
 ## Notebooks
