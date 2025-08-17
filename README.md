@@ -1,4 +1,4 @@
-  <img src="https://i.ibb.co/39WrgwsN/Databricks-Logo.png" alt="Databricks-Logo" border="0">
+<a href="https://ibb.co/YF8RH6Wk"><img src="https://i.ibb.co/wFC05TLW/Databricks-Logo.png" alt="Databricks-Logo" border="0"></a>
 # Proyecto ETL con Arquitectura Medallion usando Azure Databricks
 
 Este repositorio contiene un proyecto de ejemplo para demostrar el uso de la arquitectura Medallion (Bronze, Silver, Gold)
