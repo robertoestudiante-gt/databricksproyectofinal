@@ -38,7 +38,7 @@ El proyecto sigue el enfoque de la arquitectura Medallion:
 - Databricks Dashboards
 - Panel publico de databricks: https://adb-4339558086818032.12.azuredatabricks.net/dashboardsv3/01f07b4178d615cea10839c4d5c6a6a4/published?o=4339558086818032
   
-<img width="1382" height="49" alt="image" src="https://github.com/user-attachments/assets/b9d0aa9d-e9b5-49c4-8e6a-14028660507c" />
+<img width="1382" height="49" alt="image" src="https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png)" />
 
 
 ## Notebooks
